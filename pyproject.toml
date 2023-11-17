@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "revcolorsensor"
-version = "0.1.0"
-description = ""
+version = "1.0.1"
+description = "This is a Python library that allows Raspberry Pi's to use the REV Color Sensor without a Roborio/FRC project."
 authors = ["Jason Li <jasonli.0616@outlook.com>"]
 readme = "README.md"
 
