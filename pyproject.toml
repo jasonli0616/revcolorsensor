@@ -6,7 +6,8 @@ authors = ["Jason Li <jasonli.0616@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.6"
+pigpio = "^1.78"
 
 
 [build-system]
