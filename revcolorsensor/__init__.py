@@ -7,6 +7,6 @@ def get_color_sensor():
     Alternatively, create your own ColorSensorV3 object.
     You will most likely use the `get_color()` and `get_proximity()` functions on this object.
 
-    Remember to run `sudo pigpiod` for this library to work.
+    GitHub repo: https://github.com/jasonli0616/revcolorsensor
     """
     return ColorSensorV3(1)
