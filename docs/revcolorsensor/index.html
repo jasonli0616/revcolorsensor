@@ -26,13 +26,16 @@
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">from colorsensor import ColorSensorV3
+<pre><code class="python">from .colorsensor import ColorSensorV3
 
 def get_color_sensor():
     &#34;&#34;&#34;
     Get a color sensor on I2C port 1.
-    
+
     Alternatively, create your own ColorSensorV3 object.
+    You will most likely use the `get_color()` and `get_proximity()` functions on this object.
+
+    GitHub repo: https://github.com/jasonli0616/revcolorsensor
     &#34;&#34;&#34;
     return ColorSensorV3(1)</code></pre>
 </details>
@@ -56,7 +59,9 @@ def get_color_sensor():
 </code></dt>
 <dd>
 <div class="desc"><p>Get a color sensor on I2C port 1.</p>
-<p>Alternatively, create your own ColorSensorV3 object.</p></div>
+<p>Alternatively, create your own ColorSensorV3 object.
+You will most likely use the <code>get_color()</code> and <code>get_proximity()</code> functions on this object.</p>
+<p>GitHub repo: <a href="https://github.com/jasonli0616/revcolorsensor">https://github.com/jasonli0616/revcolorsensor</a></p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
@@ -64,8 +69,11 @@ def get_color_sensor():
 <pre><code class="python">def get_color_sensor():
     &#34;&#34;&#34;
     Get a color sensor on I2C port 1.
-    
+
     Alternatively, create your own ColorSensorV3 object.
+    You will most likely use the `get_color()` and `get_proximity()` functions on this object.
+
+    GitHub repo: https://github.com/jasonli0616/revcolorsensor
     &#34;&#34;&#34;
     return ColorSensorV3(1)</code></pre>
 </details>
