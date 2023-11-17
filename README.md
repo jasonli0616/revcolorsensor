@@ -24,7 +24,7 @@ You can run this after booting up the Raspberry Pi:
 sudo pigpiod
 ```
 
-or, run this *once* and it will do it automatically on boot:
+or, run this *once* and it will do it automatically on boot each time:
 
 ```
 sudo systemctl enable pigpiod
