@@ -6,6 +6,10 @@ This is a Python library that allows Raspberry Pi's to use the [REV Color Sensor
 pip3 install revcolorsensor
 ```
 
+```
+sudo pigpiod
+```
+
 [API Docs](https://jasonli0616.github.io/revcolorsensor/revcolorsensor/)
 
 [Examples](https://github.com/jasonli0616/revcolorsensor/tree/master/examples)
