@@ -1,4 +1,4 @@
-from colorsensor import ColorSensorV3
+from .colorsensor import ColorSensorV3
 
 def get_color_sensor():
     """
